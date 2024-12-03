@@ -1,0 +1,250 @@
+﻿@font-face {
+    font-family: 'Relato Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Relato Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../../Fonts/RelatoSansOT-Regular.otf');
+}
+
+#thead {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.34vmin;
+    font-family: 'Relato Sans';
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+/*table header*/
+#tableHeader {
+    position: relative;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    padding-top:7.64vw;
+    border-bottom: 0px solid black;
+    text-align: center;
+    font-family: 'Relato Sans';
+    font-weight: 900;
+    font-size: 6.49vw;
+    display: block;
+    padding-bottom: 15vw;
+}
+
+#theDiv {
+    position: relative;
+    left: 0;
+    /*bottom: 49px; */
+    width: 93%;
+    border: 0px solid red;
+    overflow: auto;
+    -ms-overflow-style: none;/*Only for IE, this hides the scrolllbar on IE*/
+    /*-ms-overflow-style: -ms-autohiding-scrollbar;*/ /*Only for IE, this autohides the scrolllbar on IE*/
+    z-index: 20;
+}
+
+/*text color for the whole page*/
+body
+{
+    color: White;
+}
+
+#addressHeader {
+    font-family: Arial, sans-serif; /* Fallback to a system font */
+    color: #f5f5f5; /* Hex value for whitesmoke */
+    font-size: 24px; /* Set a fixed font size as vw is not supported */
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    width: 95%; /* Approximate `calc(100% - 20px)` */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px; /* Replace vmin with a fixed value */
+    display: block;
+}
+
+
+/* page background color*/
+.pageBackgroundColor
+{
+    background-color: #790E11;
+}
+/*font and font size*/
+#tblResidents {
+    /*font-family: Relato Sans;*/
+    font-family: 'Relato Sans';
+    font-weight: lighter;
+    /*font-size: 14px;*/
+    /*font-size: 2.8vmin;*/
+    font-size: 4.4vmin;
+}
+
+#tblResidents th {
+    /*text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #333333;
+    text-decoration-color: whitesmoke;*/
+}
+/*table data*/
+#tblResidents td
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*table data, odd rows*/
+#tblResidents tr.oddRow
+{
+    /*background-color: #333;*/
+}
+/*table data, even rows*/
+    #tblResidents tr.evenRow {
+        /*background-color: #666;*/
+        /*background-color: #666;*/
+    }
+
+/*table data, odd floors*/
+#tblResidents tr.oddFloor
+{
+    /*background-color: #333;*/
+}
+/*table data, even floors*/
+#tblResidents tr.evenFloor
+{
+    /*background-color: #666;*/
+}
+
+/*padding left and right in table cells and line between the apartments*/
+    #tblResidents th {
+        padding-left: 10px;
+        padding-right: 10px;
+        /*padding-bottom: 20px;*/
+        border-bottom: 1px solid whitesmoke;
+        border-bottom-color: whitesmoke;
+    }
+
+#tblResidents td {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*padding-bottom: 20px;*/
+    border-bottom: 0px solid whitesmoke;
+    /*border-bottom-color: whitesmoke;*/
+}
+/*margin outside table*/
+.divMargin
+{
+    margin: 0px;
+}
+/*extra padding for first row*/
+#firstRow td
+{
+    padding-top: 20px !important;
+}
+
+
+#residents-table-head-floor {
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 1.25vmin;
+}
+
+#residents-table-head-name {
+    text-align: left;
+    white-space: nowrap;
+    padding-bottom: 1.25vmin;
+}
+
+#residents-table-head-apartment {
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 1.25vmin;
+}
+
+.residents-table-floor-column {
+    width: 25%;
+	text-align: center;
+	vertical-align: top; 
+	white-space: nowrap;
+}
+
+.residents-table-name-column {
+    width: 55%;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.residents-table-apartment-column {
+    width: 20%;
+	text-align: center;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+#theDiv {
+    padding-right: 3.5%;
+    padding-left: 3.5%;
+    /*background-color: aqua;*/
+}
+
